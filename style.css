@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(104, 216, 229), rgb(145, 62, 233));
+    color: rgb(117, 120, 121);
+    padding: 20px;
+    height: 100vh;
+}
+
+.container {
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    width: 600px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.container-one__table-btn {
+    background-image: linear-gradient(to right, rgb(104, 216, 229), rgb(145, 62, 233));
+    border: solid black 1px;
+    width: 250px;
+    padding: 5px;
+    border-radius: 15px;
+    color: rgb(117, 120, 121);
+}
+.table-input input {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid black 1px;
+    width: 250px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.table-input input:focus {
+    outline: 0;
+}
+
+.course {
+    background-color: transparent;
+    width: 250px;
+    border: solid 1px black;
+    color: rgb(117, 120, 121);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.container-two {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.container-two__table td{
+    padding: 5px;
+}
+
+.btn-delete {
+    cursor: pointer;
+}
